@@ -1,0 +1,39 @@
+{
+  "name": "@tarojs/plugin-platform-tt-fb",
+  "version": "0.0.1",
+  "description": "飞书小程序平台插件",
+  "author": "ripeBoy",
+  "homepage": "https://github.com/NervJS/taro-plugin-platform-tt-fb",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "taro"
+  ],
+  "files": [
+    "index.js",
+    "dist",
+    "types"
+  ],
+  "types": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NervJS/taro-plugin-platform-tt-fb.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "bugs": {
+    "url": "https://github.com/NervJS/taro-plugin-platform-tt-fb/issues"
+  },
+  "dependencies": {
+    "@tarojs/plugin-platform-tt": "^3.1.0-alpha.0",
+    "@tarojs/service": "^3.1.0-alpha.1",
+    "@tarojs/shared": "^3.1.0-alpha.1"
+  },
+  "devDependencies": {
+    "rollup": "^2.29.0",
+    "rollup-plugin-typescript2": "^0.27.3",
+    "typescript": "^4.0.3"
+  }
+}
