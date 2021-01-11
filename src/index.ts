@@ -6,7 +6,7 @@ export default (ctx: IPluginContext) => {
     name: 'fb',
     useConfigName: 'mini',
     async fn ({ config }) {
-      const program = new FB()
+      const program = new FB(ctx, config)
       program.start()
     }
   })
